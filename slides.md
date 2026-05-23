@@ -1,5 +1,6 @@
 ---
 theme: default
+colorSchema: light
 title: "O(1) à O(Mon Dieu) - Voyage au bout de la lenteur"
 info: |
   ## Complexité Algorithmique
@@ -24,7 +25,7 @@ rabbit:
   left: 20px;
   width: 60px;
   height: 60px;
-  background-image: url('/logo_afup.png');
+  background-image: url('./assets/logo_afup.png');
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 0.8;
@@ -34,7 +35,7 @@ rabbit:
 
 <div class="h-full flex flex-col items-center justify-center -m-10 p-10 bg-white">
 
-  <img src="/intro.png" class="w-72 h-72 object-cover rounded-full mb-6 scale-125" />
+  <img src="./assets/intro.png" class="w-72 h-72 object-cover rounded-full mb-6 scale-125" />
 
   <div class="text-5xl font-bold mb-3" style="color: #4a3333;">
     <span class="font-mono" style="color: #5bbfba;">O(1)</span> à <span class="font-mono" style="color: #c94c4c;">O(Mon Dieu)</span>
@@ -78,7 +79,7 @@ rabbit:
 
 <div class="relative">
   <div class="w-40 h-40 rounded-full p-1 bg-gradient-to-br from-purple-500 via-pink-500 to-orange-400 shadow-2xl">
-    <img src="/avatar.jpg" class="w-full h-full rounded-full object-cover border-4 border-white" alt="Ismaile Abdallah" />
+    <img src="./assets/avatar.jpg" class="w-full h-full rounded-full object-cover border-4 border-white" alt="Ismaile Abdallah" />
   </div>
   <div class="absolute -bottom-2 -right-2 bg-green-500 text-white text-xs px-3 py-1 rounded-full shadow-lg flex items-center gap-1">
     <span class="w-2 h-2 bg-white rounded-full animate-pulse"></span> Speaker
@@ -209,7 +210,7 @@ rabbit:
 <v-click>
 
 <div class="text-center mt-12">
-  <img src="/suprise.gif" class="w-48 h-48 mx-auto rounded-2xl shadow-lg" alt="Surprise" />
+  <img src="./assets/suprise.gif" class="w-48 h-48 mx-auto rounded-2xl shadow-lg" alt="Surprise" />
 </div>
 
 </v-click>
@@ -1660,7 +1661,7 @@ layout: center
   <h1 class="text-4xl font-bold text-black mb-4">Merci !</h1>
   <div class="text-xl text-gray-600 mb-8">Votre avis compte ⭐️</div>
 
-  <img src="/qr_code.png" class="w-64 h-64 mx-auto rounded-2xl shadow-lg mb-6" />
+  <img src="./assets/qr_code.png" class="w-64 h-64 mx-auto rounded-2xl shadow-lg mb-6" />
 
   <div class="text-lg text-gray-500">Merci d'avoir suivi cette conférence</div>
 </div>

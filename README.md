@@ -1,11 +1,20 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# O(1) à O(Mon Dieu) — Voyage au bout de la lenteur 🐢⚡
 
-To start the slide show:
+> Talk donné à l'**AFUP Day Lyon 2026** sur la complexité algorithmique en PHP.
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030?time=40>
+## 🎬 Voir les slides
 
-Edit the [slides.md](./slides.md) to see the changes.
+👉 **[yagami271.github.io/afupday2026/1](https://yagami271.github.io/afupday2026/1)**
 
-Learn more about Slidev at the [documentation](https://sli.dev/).
+## 🛠️ Lancer en local
+
+```bash
+pnpm install
+pnpm dev
+```
+
+Puis visite <http://localhost:3030>.
+
+## 🧱 Stack
+
+Construit avec [Slidev](https://sli.dev/) — slides en Markdown, propulsé par Vue.js.
