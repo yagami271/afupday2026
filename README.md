@@ -3,8 +3,8 @@
 To start the slide show:
 
 - `pnpm install`
-- `pnpm run dev`
-- visit <http://localhost:3030>
+- `pnpm dev`
+- visit <http://localhost:3030?time=40>
 
 Edit the [slides.md](./slides.md) to see the changes.
 
